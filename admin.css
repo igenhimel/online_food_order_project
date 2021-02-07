@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    font-family: 'Lora', serif;
+}
+
+.adminheader{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin: 0;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,2);
+    color:white;
+    float: left;
+    width: 100%;
+    float: left;
+}
+
+.adminheader ul li{
+    float: left;
+    list-style-type: none;
+
+}
+
+.adminheader ul li a{
+    text-decoration:none;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    margin:0;
+}
+
+.adminheader ul li a:hover{
+    background: white;
+    color: black;
+    transition: 1s;
+
+}
+
+.adminheader ul{
+     margin: 0;
+    padding: 0;
+
+
+}
+.title{
+    margin-right: 400px;
+    position: relative;
+    top:10px;
+    font-size: 30px;
+    left: 20px;
+}
+
+.logoutadmin{
+    margin-right: 200px;
+    position: relative;
+    top:12px;
+    padding: 5px;
+    left: 250px;
+    border-radius: 5px;
+}
+
+.logoutadmin:hover{
+    background: skyblue;
+    transition: 1s;
+
+
+}
+
+.wrapper{
+    padding: 1%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+.main-content{
+    background: linear-gradient(#ffffff,#D4D9E9);
+    padding: 3% 0;
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,2);
+    border-radius: 5px;
+}
+.titledashboard{
+  text-align: center;
+}
+
+
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-full tr th{
+
+    padding: 1%;
+    padding-right: 30px;
+    text-align: left;
+   background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color:azure;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.tbl-full tr td{
+    padding: 1%;
+    padding-right: 30px;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+
+
+.btn-primary{
+    background-color: #f1f1f1;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    border: 2px solid #d4d4d4;
+    border-radius: 5px;
+    margin-left: 47%;
+}
+
+.btn-primary:hover{
+    background-color: lightskyblue;
+    transition: 1s;
+}
+
+.btn-changepass,.btn-secondary,.btn-danger{
+    background-color: #f1f1f1;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    border: 2px solid #d4d4d4;
+    border-radius: 5px;
+}
+.btn-changepass:hover,.btn-secondary:hover,.btn-danger:hover{
+    background-color: lightskyblue;
+    transition: 1s;
+}
+
+.tbl-30{
+    width: 60%;
+    margin-left: 33%;
+}
+
+
+
+.tbl-30 input[type="text"],input[type="password"]{
+    padding: 10px;
+    padding-right: 50px;
+    border-radius: 5px;
+    outline: 0;
+}
+
+.tbl-32{
+    width: 60%;
+    margin-left: 33%;
+}
+
+
+.tbl-32 tr td{
+   padding: 10px
+
+}
+
+
+
+
+.tbl-32 input[type="text"],input[type="password"]{
+    padding: 10px;
+    padding-right: 50px;
+    border-radius: 5px;
+    outline: 0;
+}
+
+
+
+
+
+.tbl-31{
+    width: 60%;
+    margin-left: 33%;
+}
+
+
+
+
+.tbl-31 input[type="text"],input[type="password"]{
+    padding: 10px;
+    padding-right: 50px;
+    border-radius: 5px;
+    outline: 0;
+    border:2px solid #d4d4d4;
+}
+.tbl-31 input[type="text"]:hover,input[type="password"]:hover{
+border-color: deepskyblue;
+    transition: 2s;
+    transition-timing-function: ease;
+}
+
+.tbl-31 tr th{
+
+    padding: 1%;
+    text-align: left;
+}
+
+.tbl-31 tr td{
+    padding: 2%;
+
+}
+
+ .add-admin-btn{
+
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.add-admin-btn:hover{
+
+    background-color: deepskyblue;
+    transition: 1s;
+
+}
+
+.warning1{
+    color: red;
+}
+ .warning{
+     text-align: center;
+     color: red;
+     font-weight: bold;
+     text-shadow: 0.2px 0.2px black;
+    margin-left: 180px;
+}

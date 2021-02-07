@@ -1,0 +1,173 @@
+.header{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,2);
+     text-shadow:2px 2px black;
+
+}
+
+.header p{
+       color: white;
+    font-size: 50px;
+    margin: 0;
+}
+
+.header2{
+    transition: 2s;
+}
+
+.left{
+    float: left;
+    padding-left: 300px;
+
+}
+.verticalline{
+        display: inline-block;
+        border-left: 1px solid #ccc;
+        margin: 0 10px;
+        height: 500px;
+    margin-top: 10px;
+    margin-left: 75px;
+    }
+
+.middle{
+    float: left;
+}
+.t{
+    padding: 10px;
+    font-size: 30px;
+    position: relative;
+    left: 150px;
+    font-weight: bold;
+    color: black;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18,
+    0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    width: 85%;
+}
+.left td input{
+    padding: 8px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    outline: 0;
+
+
+}
+.left td input:hover{
+
+    border: 3px solid deepskyblue;
+    transition: 3s;
+    transition-timing-function: ease-in-out;
+
+
+}
+.errmsglog{
+    position: relative;
+    left:50px;
+    color: black;
+    font-size: 20px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF,
+        0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+.errmsglog3{
+    position: relative;
+    left:100px;
+    color: black;
+    font-size: 20px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF,
+        0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+.left td  {
+    padding:10px;
+
+
+}
+
+.left td label{
+color: black;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF,
+    0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+
+    font-size: 20px;
+
+}
+.right td label{
+    color: black;
+    font-size: 20px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18,
+        0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    padding: 60px;
+}
+
+.left td input[type="submit"]{
+    padding: 5px;
+    position: relative;
+    left:195px;
+}
+.right td input[type="submit"]{
+    padding: 5px;
+    position: relative;
+    left: 320px;
+}
+
+.left td input[type="submit"]:hover{
+   color:black;
+    background: skyblue;
+     transition: 1s;
+}
+.right td input[type="submit"]:hover{
+
+    color:black;
+    background: skyblue;
+    transition: 1s;
+}
+
+
+
+.right td input{
+
+    padding: 8px;
+     padding-right: 85px;
+    border-radius: 5px;
+    border: 3px solid transparent;
+        outline: 0;
+}
+.right td input:hover{
+
+   border: 3px solid deepskyblue;
+    transition: 1s;
+    transition-timing-function:ease-in-out;
+}
+.right td{
+    padding: 15px;
+}
+
+.bodyfirst{
+    background-image: url("image/background/food-app-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    clear: both;
+    margin: 0;
+}
+
+.forgot{
+position: relative;
+    top: 28px;
+    left: 38px;
+text-decoration: none;
+    color: black;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18,
+    0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+.foot{
+    position: absolute;
+   display: block;
+   bottom: 50px;
+    left: 670px;
+    background: white;
+}

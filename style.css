@@ -1,0 +1,54 @@
+.footers{
+
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.footers p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footers a{
+    color: white;
+    padding: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.help li{
+
+    color:white;
+    font-size:18px;
+    border:2px solid black;
+background: black;
+    text-align: center;
+
+
+
+}
+
+.help p{
+    color:black;
+    font-family: sans-serif;
+    border:2px solid transparent;
+    border-radius: 5px;
+    background: skyblue;
+
+
+}
+
+.helps2{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#ffffff,#D4D9E9);
+}
+
+.help1{
+    margin: 0;
+    padding: 0;
+    margin-left:350px;
+    max-width: 50%;
+}

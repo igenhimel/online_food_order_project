@@ -1,0 +1,97 @@
+@media screen and (max-width:1500px){
+   .left{
+    padding-left: 200px;
+
+}
+     .title{
+    margin-right: 300px;
+    position: relative;
+    top:10px;
+    font-size: 30px;
+    left: 20px;
+}
+}
+
+@media screen and (max-width:1300px){
+   .left{
+    padding-left: 130px;
+
+}
+
+    .title{
+    margin-right: 250px;
+    position: relative;
+    top:10px;
+    font-size: 30px;
+    left: 20px;
+}
+}
+
+@media screen and (max-width:980px){
+   .left{
+   float: none;
+   margin-left:200px;
+
+}
+    .verticalline{
+        display: none;
+    }
+
+    .right{
+        margin-left: 200px;
+    }
+
+    .header{
+     width:1200px;
+
+}
+    .bodyfirst{
+    background: linear-gradient();
+    height: 1200px;
+}
+
+    .left td input[type="text"]{
+   border:2px solid black;
+   font-size: 25px;
+
+}
+        .left td input[type="password"]{
+   border:2px solid black;
+            font-size: 25px;
+}
+    .right td input[type="text"]{
+
+    border:2px solid black;
+        font-size: 20px;
+}
+ .right td input[type="password"]{
+   border:2px solid black;
+     font-size: 20px;
+}
+     .right td input[type="email"]{
+   border:2px solid black;
+         font-size: 20px;
+}
+    .userheader ul li{
+    float: left;
+    list-style-type: none;
+        margin-right: 20px;;
+
+}
+  .logoutuser{
+
+    left: 0px;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
